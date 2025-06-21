@@ -2,7 +2,7 @@ name: Node Tests
 run-name: Ejecutar pruebas de Nodejs
 on: [push]
 jobs:
-  build:
+  test:
     runs-on: [self-hosted]
     steps:
       - name: Descargar el repositorio

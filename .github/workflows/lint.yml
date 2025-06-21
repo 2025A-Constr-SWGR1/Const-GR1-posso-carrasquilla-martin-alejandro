@@ -2,7 +2,7 @@ name: Node Lint
 run-name: Ejecutar lint en Nodejs
 on: [push]
 jobs:
-  build:
+  lint:
     runs-on: [self-hosted]
     steps:
       - name: Descargar el repositorio
