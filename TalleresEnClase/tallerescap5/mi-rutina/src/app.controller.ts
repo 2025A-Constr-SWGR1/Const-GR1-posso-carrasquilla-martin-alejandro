@@ -1,5 +1,6 @@
 import { Controller, Get } from '@nestjs/common';
 import { AppService } from './app.service';
+import { resumenEfectivo } from '@app/libreria-personal';
 
 @Controller()
 export class AppController {
