@@ -1,11 +1,11 @@
 {
-  "name": "2025a-swgr1-mapc-resta",
+  "name": "2025a-swgr1-smvv-resta",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Martin Alejandro Posso Carrasquilla",
+  "author": "Santos Misael Villarreal Vasconez",
   "license": "ISC",
   "description": ""
 }

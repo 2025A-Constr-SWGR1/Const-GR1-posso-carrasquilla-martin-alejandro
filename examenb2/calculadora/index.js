@@ -1,5 +1,5 @@
 const paqueteSuma = require('2025a-swgr1-mapc-suma');
-const paqueteResta = require('2025a-swgr1-mapc-resta');
+const paqueteResta = require('2025a-swgr1-smvv-resta');
 const paqueteMultiplicacion = require('2025a-swgr1-enmo-multiplicacion');
 const paqueteDivision = require('2025a-swgr1-enmo-division');
 
