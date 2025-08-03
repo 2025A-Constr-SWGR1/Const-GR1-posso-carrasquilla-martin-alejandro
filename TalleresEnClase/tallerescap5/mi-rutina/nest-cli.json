@@ -3,6 +3,18 @@
   "collection": "@nestjs/schematics",
   "sourceRoot": "src",
   "compilerOptions": {
-    "deleteOutDir": true
+    "deleteOutDir": true,
+    "webpack": true
+  },
+  "projects": {
+    "libreria-personal": {
+      "type": "library",
+      "root": "libs/libreria-personal",
+      "entryFile": "index",
+      "sourceRoot": "libs/libreria-personal/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/libreria-personal/tsconfig.lib.json"
+      }
+    }
   }
 }

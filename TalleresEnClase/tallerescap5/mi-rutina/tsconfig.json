@@ -20,6 +20,14 @@
     "forceConsistentCasingInFileNames": true,
     "noImplicitAny": false,
     "strictBindCallApply": false,
-    "noFallthroughCasesInSwitch": false
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@app/libreria-personal": [
+        "libs/libreria-personal/src"
+      ],
+      "@app/libreria-personal/*": [
+        "libs/libreria-personal/src/*"
+      ]
+    }
   }
 }
