@@ -1,3 +1,6 @@
 [submodule "submodulo"]
 	path = submodulo
 	url = https://github.com/2025A-Constr-SWGR1/Const-GR1-mideros-olovacha-erick-nicolas.git
+[submodule "submodulo-santos"]
+	path = submodulo-santos
+	url = https://github.com/2025A-Constr-SWGR1/Const-GR1-villarreal-vasconez-santos-misael.git
