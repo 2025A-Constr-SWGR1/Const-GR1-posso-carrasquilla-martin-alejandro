@@ -35,4 +35,11 @@ export class PersonalController {
     listRecordatorios() {
         return this.svc.listRecordatorios();
     }
+
+    @Get('energia')
+    @ApiOperation({ summary: 'Nivel de energía actual (%)' })
+    getEnergia() {
+        return this.svc.getEnergia();
+    }
+
 }

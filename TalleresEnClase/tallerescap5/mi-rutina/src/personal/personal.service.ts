@@ -26,4 +26,9 @@ export class PersonalService {
     listRecordatorios(): RecordatorioDto[] {
         return this.recordatorios;
     }
+
+    getEnergia(): { nivel: number } {
+        return { nivel: Math.floor(Math.random() * 100) }; // 0–99%
+    }
+
 }
